@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Wenn Sie diese Arbeit verwenden, zitieren Sie sie bitte wie folgt."
+title: "Analoganzeige optisch lesen"
+abstract: "Ein Zeigerinstrument ablesen, ohne es zu verändern. Skala und Zeiger werden in jedem Bild neu gefunden, ohne festen Drehpunkt und ohne Einlernen."
+type: software
+authors:
+  - family-names: Wystup
+    given-names: Ralph
+    name-particle: ""
+    name-suffix: "Prof. Dr.-Ing., M.Sc."
+license: MIT
+url: "https://ralphwystup.github.io/Analoganzeige-optisch-lesen-mit-ESP32-S3/"
+repository-code: "https://github.com/RalphWystup/Analoganzeige-optisch-lesen-mit-ESP32-S3"
+date-released: "2026-09-30"
+keywords:
+  - Zeigerinstrument
+  - Bildverarbeitung
+  - RANSAC
+  - ESP32-S3
+  - Kamera
