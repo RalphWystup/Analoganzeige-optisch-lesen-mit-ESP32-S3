@@ -1,0 +1,9 @@
+# Board-Einstellungen zum Sketch (wird von arduino-cli gelesen; die Arduino IDE 2.3.x liest die Datei
+# noch nicht, dort einmal im Menü Werkzeuge setzen, die IDE merkt sich die Werte je Board).
+default_fqbn: esp32:esp32:esp32s3:CDCOnBoot=cdc,FlashMode=qio,FlashSize=8M,PartitionScheme=default_8MB,PSRAM=opi,UploadMode=default,UploadSpeed=921600,USBMode=hwcdc
+profiles:
+  freenove_s3:
+    fqbn: esp32:esp32:esp32s3:CDCOnBoot=cdc,FlashMode=qio,FlashSize=8M,PartitionScheme=default_8MB,PSRAM=opi,UploadMode=default,UploadSpeed=921600,USBMode=hwcdc
+    platforms:
+      - platform: esp32:esp32 (3.3.11)
+default_profile: freenove_s3

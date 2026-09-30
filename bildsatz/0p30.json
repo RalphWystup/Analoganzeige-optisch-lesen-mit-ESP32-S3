@@ -1,0 +1,79 @@
+{
+ "board": "Freenove ESP32-S3",
+ "bilder": 1411,
+ "dauer_ms": 1075,
+ "erkennung_ms": 494,
+ "jpeg_ms": 264,
+ "stream": "640x480",
+ "kanal": "rot",
+ "einheit": "mA",
+ "kalibriert": true,
+ "linie": {
+  "winkel180": 107.43,
+  "punkte": 133,
+  "x": 271.3,
+  "y": 126.7,
+  "dx": 0.2995,
+  "dy": 0.9541,
+  "breite": 5.1
+ },
+ "drehpunkt": [
+  349.2,
+  369.1
+ ],
+ "band": [
+  222.6,
+  296.4
+ ],
+ "zeigerbreite": 5.3,
+ "marken": [
+  {
+   "winkel": 132.64,
+   "wert": 0
+  },
+  {
+   "winkel": 57.55,
+   "wert": 0.9
+  }
+ ],
+ "verfolgung": "ok",
+ "winkel": 107.84,
+ "wert": 0.297,
+ "wert_median": 0.297,
+ "sicherheit": 45.5,
+ "gueltig": true,
+ "messkanal": "rot",
+ "s_rot": 45.5,
+ "s_grau": 21.8,
+ "wb": [
+  275,
+  212,
+  295
+ ],
+ "belichtung_fest": false,
+ "licht": {
+  "auto_laeuft": false,
+  "stufe": 0,
+  "mittel": 0,
+  "regel": false,
+  "ziel": 150,
+  "ledmax": 160,
+  "regel_mittel": 151,
+  "aec": 800,
+  "gain": 8
+ },
+ "led": [
+  0,
+  0,
+  0
+ ],
+ "strom": {
+  "soll": 0.3,
+  "imax": 0.89,
+  "aktiv": true,
+  "pin": 21,
+  "pwm_ok": true,
+  "pintest": -1,
+  "quelle": "sigmadelta"
+ }
+}
